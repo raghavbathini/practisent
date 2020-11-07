@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="91" started-at="2020-09-07T19:45:46 IST" finished-at="2020-09-07T19:45:46 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="91" started-at="2020-09-07T19:45:46 IST" finished-at="2020-09-07T19:45:46 IST">
+      <class name="practice.DerivedTest">
+        <test-method status="PASS" signature="beforeSuiteBase()[pri:0, instance:practice.DerivedTest@3a883ce7]" name="beforeSuiteBase" is-config="true" duration-ms="16" started-at="2020-09-07T19:45:46 IST" finished-at="2020-09-07T19:45:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuiteBase -->
+        <test-method status="PASS" signature="beforeSuiteDerived()[pri:0, instance:practice.DerivedTest@3a883ce7]" name="beforeSuiteDerived" is-config="true" duration-ms="0" started-at="2020-09-07T19:45:46 IST" depends-on-methods="practice.BaseTest.beforeSuiteBase" finished-at="2020-09-07T19:45:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuiteDerived -->
+        <test-method status="PASS" signature="beforeTestBase()[pri:0, instance:practice.DerivedTest@3a883ce7]" name="beforeTestBase" is-config="true" duration-ms="0" started-at="2020-09-07T19:45:46 IST" finished-at="2020-09-07T19:45:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestBase -->
+        <test-method status="PASS" signature="beforeTestDerived()[pri:0, instance:practice.DerivedTest@3a883ce7]" name="beforeTestDerived" is-config="true" duration-ms="1" started-at="2020-09-07T19:45:46 IST" depends-on-methods="practice.BaseTest.beforeTestBase" finished-at="2020-09-07T19:45:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestDerived -->
+        <test-method status="PASS" signature="beforeclassBase()[pri:0, instance:practice.DerivedTest@3a883ce7]" name="beforeclassBase" is-config="true" duration-ms="1" started-at="2020-09-07T19:45:46 IST" finished-at="2020-09-07T19:45:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeclassBase -->
+        <test-method status="PASS" signature="beforeclassDerived()[pri:0, instance:practice.DerivedTest@3a883ce7]" name="beforeclassDerived" is-config="true" duration-ms="1" started-at="2020-09-07T19:45:46 IST" finished-at="2020-09-07T19:45:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeclassDerived -->
+        <test-method status="PASS" signature="beforeMethodBase()[pri:0, instance:practice.DerivedTest@3a883ce7]" name="beforeMethodBase" is-config="true" duration-ms="1" started-at="2020-09-07T19:45:46 IST" finished-at="2020-09-07T19:45:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodBase -->
+        <test-method status="PASS" signature="beforeMethodDerived()[pri:0, instance:practice.DerivedTest@3a883ce7]" name="beforeMethodDerived" is-config="true" duration-ms="1" started-at="2020-09-07T19:45:46 IST" finished-at="2020-09-07T19:45:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodDerived -->
+        <test-method status="PASS" signature="test()[pri:0, instance:practice.DerivedTest@3a883ce7]" name="test" duration-ms="15" started-at="2020-09-07T19:45:46 IST" finished-at="2020-09-07T19:45:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="afterMethodDerived()[pri:0, instance:practice.DerivedTest@3a883ce7]" name="afterMethodDerived" is-config="true" duration-ms="1" started-at="2020-09-07T19:45:46 IST" finished-at="2020-09-07T19:45:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodDerived -->
+        <test-method status="PASS" signature="afterMethodBase()[pri:0, instance:practice.DerivedTest@3a883ce7]" name="afterMethodBase" is-config="true" duration-ms="1" started-at="2020-09-07T19:45:46 IST" finished-at="2020-09-07T19:45:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodBase -->
+        <test-method status="PASS" signature="afterclassDerived()[pri:0, instance:practice.DerivedTest@3a883ce7]" name="afterclassDerived" is-config="true" duration-ms="0" started-at="2020-09-07T19:45:46 IST" finished-at="2020-09-07T19:45:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterclassDerived -->
+        <test-method status="PASS" signature="afterclassBase()[pri:0, instance:practice.DerivedTest@3a883ce7]" name="afterclassBase" is-config="true" duration-ms="0" started-at="2020-09-07T19:45:46 IST" finished-at="2020-09-07T19:45:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterclassBase -->
+        <test-method status="PASS" signature="afterTestBase()[pri:0, instance:practice.DerivedTest@3a883ce7]" name="afterTestBase" is-config="true" duration-ms="1" started-at="2020-09-07T19:45:46 IST" depends-on-methods="practice.DerivedTest.afterTestDerived" finished-at="2020-09-07T19:45:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTestBase -->
+        <test-method status="PASS" signature="afterTestDerived()[pri:0, instance:practice.DerivedTest@3a883ce7]" name="afterTestDerived" is-config="true" duration-ms="0" started-at="2020-09-07T19:45:46 IST" finished-at="2020-09-07T19:45:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTestDerived -->
+        <test-method status="PASS" signature="afterSuiteDerived()[pri:0, instance:practice.DerivedTest@3a883ce7]" name="afterSuiteDerived" is-config="true" duration-ms="1" started-at="2020-09-07T19:45:46 IST" finished-at="2020-09-07T19:45:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuiteDerived -->
+        <test-method status="PASS" signature="afterSuiteBase()[pri:0, instance:practice.DerivedTest@3a883ce7]" name="afterSuiteBase" is-config="true" duration-ms="0" started-at="2020-09-07T19:45:46 IST" depends-on-methods="practice.DerivedTest.afterSuiteDerived" finished-at="2020-09-07T19:45:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuiteBase -->
+      </class> <!-- practice.DerivedTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
